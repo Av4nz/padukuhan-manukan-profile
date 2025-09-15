@@ -12,9 +12,10 @@ const Footer = () => {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.3984241747967!2d110.39727877595405!3d-7.747495576813814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59ed439103cf%3A0xae0b0a5a5562014e!2sKWT%20(Kelompok%20Wanita%20Tani)%20Kuntani%20Manukan%20Condongcatur!5e0!3m2!1sen!2sid!4v1756738038210!5m2!1sen!2sid"
                 className="w-full h-full"
                 style={{ border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
+                alt="Lokasi Padukuhan Manukan"
               ></iframe>
             </div>
           </div>
@@ -45,7 +46,7 @@ const Footer = () => {
           <p className="text-sm font-light">
             &copy; {new Date().getFullYear()} KWT Kuntani. All rights reserved.
             Developed by{" "}
-            <a href="" className="hover:text-blue-400">
+            <a className="hover:text-blue-400">
               Tim KKN-M UNY
             </a>
           </p>

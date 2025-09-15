@@ -1,25 +1,53 @@
 import React from "react";
-import { Carousel } from "flowbite-react";
-import ButtonPrimary from "../ui/ButtonPrimary";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import Image from "next/image";
+import Hero1 from "@/public/images/static/hero1.jpg";
+import Hero2 from "@/public/images/static/hero2.jpg";
+import Hero3 from "@/public/images/static/hero3.jpg";
 
 const CarouselSection = () => {
+  const images = [Hero1, Hero2, Hero3];
 
   return (
-    <section className="relative h-[calc(100vh-80px)] md:h-[700px] w-full overflow-hidden flex justify-center items-center">
-
-      <div className="absolute w-full h-full bg-black/60" />
-      <div className="absolute max-w-[1240px] h-full flex items-center justify-center flex-col z-1 text-white">
-        <h1 className="text-center mb-6">
-          <span className="text-4xl md:text-6xl font-bold">KWT Kuntani</span>
-          <br />
-          <span className="text-xl md:text-3xl font-light">
-            Kelompok Wanita Tani Kuntani
+    <section className="relative h-[calc(100vh-88px)] md:h-[600px] w-full overflow-hidden flex justify-center items-center">
+      <Swiper
+        modules={[Navigation, Pagination, Autoplay]}
+        navigation={{
+          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-next",
+        }}
+        pagination={{ clickable: true }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        loop={true}
+        className="!overflow-x-hidden !rounded-none w-full h-full carousel-swiper"
+      >
+        {images.map((image, index) => (
+          <SwiperSlide key={index} className="relative w-full h-full">
+            <Image
+              className="flex w-full h-full bg-center bg-cover object-cover object-center -z-10"
+              src={image}
+              alt={`Slide ${index + 1}`}
+              fill
+              priority={index === 0}
+              sizes="100vw"
+            />
+            <div className="absolute w-full h-full bg-black/60 -z-10" />
+          </SwiperSlide>
+        ))}
+        <div className="swiper-button-prev hidden md:block text-white z-10" />
+        <div className="swiper-button-next hidden md:block text-white z-10" />
+      </Swiper>
+      <div className="absolute max-w-[1240px] h-full flex items-center justify-center flex-col z-1 text-white pointer-events-none">
+        <h1 className="text-center flex flex-col gap-2">
+          <span className="text-4xl sm:text-5xl md:text-6xl font-bold">Selamat Datang</span>
+          <span className="text-2xl sm:text-3xl md:text-4xl font-medium">
+            Website Padukuhan Manukan
           </span>
         </h1>
-        <div className="flex flex-row gap-4 mx-auto flex-wrap justify-center items-center">
-          <ButtonPrimary label={"Lihat Produk"} toSection={"produk"} />
-        </div>
       </div>
     </section>
   );

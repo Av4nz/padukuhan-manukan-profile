@@ -39,3 +39,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif, var(--font-poppins);
 }
+
+
+
+.carousel-swiper .swiper-pagination-bullet {
+  background-color: white;
+  width: 130px;  
+  height: 3px; 
+  opacity: 0.3;
+  border-radius: 2px;
+}
+
+.carousel-swiper .swiper-pagination-bullet-active {
+  background-color: #385abd;
+  opacity: 1;
+  width: 130px;  
+  height: 3px;  
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}

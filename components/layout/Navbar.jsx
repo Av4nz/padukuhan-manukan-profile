@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const menuItems = [
     { title: "Beranda", to: "beranda", path: "/" },
-    { title: "profil", to: "profil", path: "/#profil" },
+    { title: "Profil", to: "profil", path: "/#profil" },
     { title: "Infografis", to: "infografis", path: "/#" },
     { title: "Lembaga", to: "lembaga", path: "/#kegiatan" },
     { title: "Kegiatan", to: "kegiatan", path: "/#kontak" },
@@ -81,10 +81,10 @@ const Navbar = () => {
 
       <div
         className={`md:hidden fixed left-0 w-full transition-all duration-500 ease-in-out ${
-          nav ? "top-[80px] opacity-100" : "top-[-100%] opacity-0"
+          nav ? "top-[88px] opacity-100" : "top-[-100%] opacity-0"
         } `}
       >
-        <ul className="bg-primary-700 text-white">
+        <ul className="bg-primary-900 text-white">
           {menuItems.map((item, index) => (
             <li
               key={index}
