@@ -2,15 +2,15 @@ import React from "react";
 
 const SambutanSection = () => {
   return (
-    <section id="sambutan" className="py-12 px-4 lg:px-16 bg-white shadow-xl">
+    <section id="sambutan" className="py-12 px-4 lg:px-16 bg-white">
       <div className="max-w-[1240px] mx-auto">
-        <h1 className="text-2xl md:text-4xl font-bold">
+        <h2 className="text-2xl md:text-4xl font-bold">
           Sambutan Dukuh Manukan
-        </h1>
-        <hr className="text-primary-900/50 my-4" />
-        <h2 className="text-lg md:text-xl font-semibold">
-          Beti Kartiningrum S.T., M.T
         </h2>
+        <hr className="text-primary-900/50 my-4" />
+        <h3 className="text-lg md:text-xl font-semibold">
+          Beti Kartiningrum S.T., M.T
+        </h3>
         <p className="text-justify mt-4 text-base leading-relaxed indent-12">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
           nihil, iure optio temporibus quis consectetur. Accusantium accusamus

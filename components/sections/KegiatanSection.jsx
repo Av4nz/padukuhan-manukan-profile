@@ -7,9 +7,9 @@ const KegiatanSection = () => {
     <section id="kegiatan" className="py-12 px-4 lg:px-16 bg-white">
       <div className="max-w-[1240px] mx-auto">
         <div className="flex justify-between items-center">
-          <h1 className="text-2xl md:text-4xl font-bold">
+          <h2 className="text-2xl md:text-4xl font-bold">
             Kegiatan di Manukan
-          </h1>
+          </h2>
           <div className="hidden md:block">
             <ButtonPrimary label={"Lihat Lainnya"} />
           </div>

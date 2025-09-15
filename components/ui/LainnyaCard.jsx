@@ -1,13 +1,18 @@
 import React from "react";
-import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { FaArrowRight } from "react-icons/fa6";
 
-const LainnyaCard = ({ image, nama }) => {
-  const [isHovered, setIsHovered] = useState(false);
+const LainnyaCard = ({ image, nama, path }) => {
+  const router = useRouter();
+
+  const handleClick = (path) => {
+    router.push(path)
+  }
 
   return (
-    <div className="shadow rounded-2xl w-full h-[16rem] sm:h-[18rem] md:h-[18rem] relative overflow-hidden flex group cursor-pointer">
+    <div className="shadow rounded-2xl w-full h-[16rem] sm:h-[18rem] md:h-[18rem] relative overflow-hidden flex group cursor-pointer" onClick={() => handleClick(path)}>
       <Image
         src={image || null}
         alt={nama}
@@ -25,7 +30,7 @@ const LainnyaCard = ({ image, nama }) => {
           <h4 className="text-white font-semibold text-2xl hover:underline">
             {nama || "Informasi"}
           </h4>
-          <FaArrowRight size={20} className="text-white ml-2"/>
+          <FaArrowRight size={20} className="text-white ml-2 group-hover:translate-x-3 transition-transform transform duration-300"/>
         </div>
       </div>
     </div>

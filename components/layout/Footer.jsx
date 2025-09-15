@@ -43,7 +43,7 @@ const Footer = ({ currentYear }) => {
           alt="Lokasi Padukuhan Manukan"
         ></iframe>
       </div>
-      <div className="bg-primary-900 p-4">
+      <div className="bg-primary-900 px-4 py-6">
         <div className="max-w-[1240px] flex flex-col md:flex-row gap-4 mx-auto">
           <div className="flex flex-col md:w-[50%]">
             <h3 className="md:text-3xl text-2xl font-semibold mb-2">
