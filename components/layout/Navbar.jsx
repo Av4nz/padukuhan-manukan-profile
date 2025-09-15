@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import ButtonWhite from "../ui/ButtonWhite";
@@ -11,44 +10,24 @@ const Navbar = () => {
   const toggleNav = () => setNav(!nav);
 
   const menuItems = [
-    { title: "Beranda", to: "beranda", path: "/" },
-    { title: "Profil", to: "profil", path: "/#profil" },
-    { title: "Infografis", to: "infografis", path: "/#" },
-    { title: "Lembaga", to: "lembaga", path: "/#kegiatan" },
-    { title: "Kegiatan", to: "kegiatan", path: "/#kontak" },
+    { title: "Beranda", path: "/" },
+    { title: "Profil", path: "/profil" },
+    { title: "Infografis", path: "/infografis" },
+    { title: "Lembaga", path: "/lembaga" },
+    { title: "Kegiatan", path: "/kegiatan" },
   ];
 
-  const handleClick = (to, path) => {
+  const handleClick = (path) => {
     setNav(false);
-    if (router.pathname !== "/") {
-      router.push(path);
-    } else if (to) {
-      document.getElementById(to).scrollIntoView({ behavior: "smooth" });
-    }
+    router.push(path);
   };
 
   const renderNavLink = (item) => {
-    if (router.pathname === "/" && item.to) {
-      return (
-        <ScrollLink
-          to={item.to}
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-50}
-          className="hover:underline cursor-pointer"
-          onClick={() => setNav(false)}
-        >
-          {item.title}
-        </ScrollLink>
-      );
-    }
-
     return (
       <Link
         href={item.path}
         className="hover:underline"
-        onClick={() => handleClick(item.to, item.path)}
+        onClick={() => handleClick(item.path)}
       >
         {item.title}
       </Link>
@@ -70,7 +49,6 @@ const Navbar = () => {
           </li>
         ))}
         <ButtonWhite label="Login" link="/admin" />
-
       </ul>
 
       <div className="md:hidden flex items-center" onClick={toggleNav}>
@@ -96,7 +74,6 @@ const Navbar = () => {
           <li className="py-6 px-6 border-b border-white last:border-b-0">
             <ButtonWhite label="Login" link="/admin" />
           </li>
-          
         </ul>
       </div>
     </nav>

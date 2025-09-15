@@ -9,8 +9,8 @@ const Header = () => {
       <div className="max-w-[1240px] mx-auto flex justify-between items-center">
         <a href="/" className="flex font-semibold text-xl gap-2 items-center">
           <Image
-            src={Logo}
-            alt="Logo KWT Kuntani"
+            src={Logo || null}
+            alt="Logo Padukuhan Manukan"
             width={500}
             height={500}
             className="w-12"

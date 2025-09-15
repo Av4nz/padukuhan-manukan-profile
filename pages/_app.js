@@ -13,6 +13,7 @@ const poppins = Poppins({
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
+  const currentYear = new Date().getFullYear();
 
   useEffect(() => {
     
@@ -31,7 +32,7 @@ export default function App({ Component, pageProps }) {
       <main className="flex-grow">
         <Component {...pageProps} />
       </main>
-      <Footer />
+      <Footer currentYear={currentYear}/>
     </div>
   );
 }

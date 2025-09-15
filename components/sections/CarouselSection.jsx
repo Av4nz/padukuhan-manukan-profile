@@ -29,7 +29,7 @@ const CarouselSection = () => {
           <SwiperSlide key={index} className="relative w-full h-full">
             <Image
               className="flex w-full h-full bg-center bg-cover object-cover object-center -z-10"
-              src={image}
+              src={image || null}
               alt={`Slide ${index + 1}`}
               fill
               priority={index === 0}

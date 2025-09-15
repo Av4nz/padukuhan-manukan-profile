@@ -10,7 +10,7 @@ const KegiatanMiniCard = ({ image, children }) => {
     >
       <div className="w-[40%] h-full">
         <Image
-          src={image}
+          src={image || null}
           alt={title}
           width={500}
           height={500}

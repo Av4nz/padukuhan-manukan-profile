@@ -4,13 +4,12 @@ import CarouselSection from "@/components/sections/CarouselSection";
 import SambutanSection from "@/components/sections/SambutanSection";
 import KegiatanSection from "@/components/sections/KegiatanSection";
 import FasilitasSection from "@/components/sections/FasilitasSection";
+import InformasiLainnyaSection from "@/components/sections/InformasiLainnyaSection";
 
 export default function Home() {
   return (
     <>
-      <Head>
-
-      </Head>
+      <Head></Head>
       <main className="text-black">
         <CarouselSection />
         <SambutanSection />
@@ -18,7 +17,8 @@ export default function Home() {
         <KegiatanSection />
         <SectionDivider />
         <FasilitasSection />
-
+        <SectionDivider />
+        <InformasiLainnyaSection />
       </main>
     </>
   );

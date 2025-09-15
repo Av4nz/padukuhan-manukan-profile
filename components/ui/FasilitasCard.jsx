@@ -7,11 +7,11 @@ const FasilitasCard = ({ image, name, link }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="bg-primary-900 rounded-3xl p-2 ">
+    <div className="bg-primary-700 rounded-3xl p-2 ">
       <div className="rounded-2xl w-full h-[28rem] sm:h-[20rem] lg:h-[20rem] relative overflow-hidden">
         <div className="w-full h-[80%] sm:h-[80%] lg:h-[80%] overflow-hidden">
           <Image
-            src={image}
+            src={image || null}
             alt={name || "Nama Fasilitas"}
             width={400}
             height={400}
