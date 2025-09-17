@@ -1,10 +1,10 @@
 import Head from "next/head";
 import SectionDivider from "@/components/layout/SectionDivider";
-import CarouselSection from "@/components/sections/CarouselSection";
-import SambutanSection from "@/components/sections/SambutanSection";
-import KegiatanSection from "@/components/sections/KegiatanSection";
-import FasilitasSection from "@/components/sections/FasilitasSection";
-import InformasiLainnyaSection from "@/components/sections/InformasiLainnyaSection";
+import CarouselSection from "@/components/sections/home-page/CarouselSection";
+import SambutanSection from "@/components/sections/home-page/SambutanSection";
+import KegiatanSection from "@/components/sections/home-page/KegiatanSection";
+import FasilitasSection from "@/components/sections/home-page/FasilitasSection";
+import InformasiLainnyaSection from "@/components/sections/home-page/InformasiLainnyaSection";
 
 export default function Home() {
   return (

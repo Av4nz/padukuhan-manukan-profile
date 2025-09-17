@@ -1,5 +1,5 @@
 import React from "react";
-import FasilitasCard from "../ui/FasilitasCard";
+import FasilitasCard from "../../ui/FasilitasCard";
 
 const FasilitasSection = () => {
   return (
@@ -8,7 +8,10 @@ const FasilitasSection = () => {
         <h2 className="text-2xl md:text-4xl font-bold">Fasilitas</h2>
         <hr className="text-primary-900/50 my-4" />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            <FasilitasCard />
+          <FasilitasCard />
+          <FasilitasCard />
+          <FasilitasCard />
+          <FasilitasCard />
         </div>
       </div>
     </section>

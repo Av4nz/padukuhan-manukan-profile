@@ -1,6 +1,6 @@
 import React from "react";
-import KegiatanMiniCard from "../ui/KegiatanMiniCard";
-import ButtonPrimary from "../ui/ButtonPrimary";
+import KegiatanMiniCard from "../../ui/KegiatanMiniCard";
+import ButtonPrimary from "../../ui/ButtonPrimary";
 
 const KegiatanSection = () => {
   return (
@@ -11,7 +11,7 @@ const KegiatanSection = () => {
             Kegiatan di Manukan
           </h2>
           <div className="hidden md:block">
-            <ButtonPrimary label={"Lihat Lainnya"} />
+            <ButtonPrimary label={"Lihat Lainnya"} link={"/kegiatan"} />
           </div>
         </div>
 
@@ -23,7 +23,7 @@ const KegiatanSection = () => {
           <KegiatanMiniCard />
         </div>
         <div className="flex justify-center mt-12 md:hidden">
-          <ButtonPrimary label={"Lihat Lainnya"} />
+          <ButtonPrimary label={"Lihat Lainnya"} link={"/kegiatan"} />
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const GambaranUmumCard = () => {
+const GambaranUmumCard = ({image}) => {
   return (
     <div className="shadow rounded-2xl w-full h-[16rem] sm:h-[18rem] md:h-[20rem] lg:h-[22rem] relative overflow-hidden flex group">
       <Image
