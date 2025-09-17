@@ -1,13 +1,20 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { FaArrowRight, FaLocationDot } from "react-icons/fa6";
 
-const FasilitasCard = ({ image, name, link }) => {
+const FasilitasCard = ({ image, name, url }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const router = useRouter();
+
+  const handleClick = (url) => {
+    router.push(url);
+  };
 
   return (
-    <div className="bg-primary-700 rounded-3xl p-2 ">
+    <div className="bg-primary-700 rounded-3xl p-2">
       <div className="rounded-2xl w-full h-[28rem] sm:h-[20rem] lg:h-[20rem] relative overflow-hidden">
         <div className="w-full h-[80%] sm:h-[80%] lg:h-[80%] overflow-hidden">
           <Image
@@ -32,6 +39,7 @@ const FasilitasCard = ({ image, name, link }) => {
         className="px-4 pt-4 pb-2 text-white flex items-center justify-between cursor-pointer font-medium"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        onClick={() => url && handleClick(url)}
       >
         <a
           className={`transition-all duration-300 ${

@@ -26,7 +26,7 @@ const Navbar = () => {
     return (
       <Link
         href={item.path}
-        className="hover:underline"
+        className="hover:text-sky-200 font-medium"
         onClick={() => handleClick(item.path)}
       >
         {item.title}
@@ -35,13 +35,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-white">
+    <nav className="text-white relative">
       <ul
-        className={
-          nav
-            ? "hidden md:flex space-x-6 justify-between"
-            : "hidden md:flex space-x-6 justify-between"
-        }
+        className="hidden md:flex space-x-6 justify-between"
       >
         {menuItems.map((item, index) => (
           <li key={index} className="cursor-pointer">
@@ -59,8 +55,8 @@ const Navbar = () => {
 
       <div
         className={`md:hidden fixed left-0 w-full transition-all duration-500 ease-in-out ${
-          nav ? "top-[88px] opacity-100" : "top-[-100%] opacity-0"
-        } `}
+          nav ? "top-[88px] opacity-100 " : "top-[-100%] opacity-0"
+        } z-[40]`}
       >
         <ul className="bg-primary-900 text-white">
           {menuItems.map((item, index) => (

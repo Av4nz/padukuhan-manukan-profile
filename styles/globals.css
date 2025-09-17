@@ -58,3 +58,40 @@ body {
   border-radius: 2px;
   transition: width 0.3s ease;
 }
+
+.fasilitas-swiper .swiper-button-next,
+.fasilitas-swiper .swiper-button-prev {
+  color: white;
+  width: 45px;  
+  height: 45px; 
+  background-color: black; 
+  border-radius: 50%; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.fasilitas-swiper .swiper-button-next::after,
+.fasilitas-swiper .swiper-button-prev::after {
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+.fasilitas-swiper .swiper-pagination-bullet {
+  background: #76a6e4;
+  width: 10px;  
+  height: 10px; 
+  opacity: 0.5;
+}
+
+.fasilitas-swiper .swiper-pagination-bullet-active {
+  background: #385abd;
+  opacity: 1;
+  width: 24px; 
+  border-radius: 4px; 
+  transition: width 0.3s ease; 
+}
+.fasilitas-swiper .swiper-button-next:hover,
+.fasilitas-swiper .swiper-button-prev:hover {
+  background-color: #353535;
+  color: white;
+  transition: all 0.3s ease;
+}
