@@ -1,0 +1,21 @@
+{
+    "populasi": {
+        "jumlah_penduduk": 702,
+        "jumlah_kepala_keluarga": 210,
+        "laki_laki": 350,
+        "perempuan": 352
+    },
+
+    "sebaran_wilayah": {
+        "RT01" : 100,
+        "RT02" : 50,
+        "RT03" : 100,
+        "RT04" : 50,
+        "RT05" : 52,
+        "RT06" : 100,
+        "RT07" : 100,
+        "RT08" : 50,
+        "RT09" : 100
+    }
+
+}
