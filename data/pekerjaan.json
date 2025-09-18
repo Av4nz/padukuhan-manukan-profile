@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Petani",
+        "value": 150
+    },
+    {
+        "title": "Pedagang",
+        "value": 100
+    },
+    {
+        "title": "PNS",
+        "value": 50
+    },
+    {
+        "title": "Wiraswasta",
+        "value": 200
+    },
+    {
+        "title": "Buruh",
+        "value": 80
+    }
+]

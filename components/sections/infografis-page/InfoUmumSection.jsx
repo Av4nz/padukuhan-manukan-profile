@@ -1,13 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import PopulationCard from "@/components/ui/PopulationCard";
-
-const stats = [
-  { title: "Jumlah Penduduk", value: 702 },
-  { title: "Jumlah Kepala Keluarga", value: 210 },
-  { title: "Jumlah Laki-Laki", value: 350 },
-  { title: "Jumlah Perempuan", value: 352 },
-];
+import populasiData from "@/data/populasi.json";
 
 const InfoUmumSection = () => {
   return (
@@ -20,8 +14,8 @@ const InfoUmumSection = () => {
           Jumlah Penduduk dan Kepala Keluarga
         </h2>
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-          {stats.map((stat, index) => (
-            <PopulationCard key={index} title={stat.title} value={stat.value} />
+          {populasiData.map((item, index) => (
+            <PopulationCard key={index} title={item.title} value={item.value} />
           ))}
         </div>
       </div>
