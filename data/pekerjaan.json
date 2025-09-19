@@ -18,5 +18,41 @@
     {
         "title": "Buruh",
         "value": 80
+    },
+    {
+        "title": "Guru",
+        "value": 40
+    },
+    {
+        "title": "Dokter",
+        "value": 10
+    },
+    {
+        "title": "Perawat",
+        "value": 25
+    },
+    {
+        "title": "Mahasiswa",
+        "value": 60
+    },
+    {
+        "title": "Pelajar",
+        "value": 120
+    },
+    {
+        "title": "Pengusaha",
+        "value": 35
+    },
+    {
+        "title": "Nelayan",
+        "value": 15
+    },
+    {
+        "title": "Sopir",
+        "value": 22
+    },
+    {
+        "title": "Tukang",
+        "value": 30
     }
 ]
