@@ -32,7 +32,24 @@ export async function getStaticProps() {
 export default function Home({latestKegiatan}) {
   return (
     <>
-      <Head></Head>
+      <Head>
+        <title>Webiste Padukuhan Manukan</title>
+        <meta
+          name="description"
+          content="Website resmi Padukuhan Manukan yang berisi profil, fasilitas, infografis, lembaga, dan kegiatan yang ada di Padukuhan Manukan."
+        />
+        <meta name="author" content="Padukuhan Manukan" />
+        <link rel="icon" href="/manukan-logo.ico" />
+
+        <meta property="og:title" content="Padukuhan Manukan" />
+        <meta
+          property="og:description"
+          content="Website resmi Padukuhan Manukan yang berisi profil, fasilitas, infografis, lembaga, dan kegiatan yang ada di Padukuhan Manukan."
+        />
+        <meta property="og:image" content="/manukan-logo.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://padukuhan-manukan.netlify.app/" />
+      </Head>
       <main className="text-black">
         <CarouselSection />
         <SambutanSection />

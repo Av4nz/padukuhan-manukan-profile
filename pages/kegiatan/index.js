@@ -28,7 +28,15 @@ export async function getStaticProps() {
 const index = ({ allKegiatan }) => {
   return (
     <>
-      <Head></Head>
+      <Head>
+        <title>Kegiatan Padukuhan Manukan</title>
+        <meta
+          name="description"
+          content="Kegiatan yang ada di Padukuhan Manukan."
+        />
+        <meta name="author" content="Padukuhan Manukan" />
+        <link rel="icon" href="/manukan-logo.ico" />
+      </Head>
       <main className="text-black">
         <div className="max-w-[1240px] mx-auto px-4 lg:px-16">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center pt-8">

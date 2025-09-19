@@ -8,7 +8,15 @@ import PersebaranSection from "@/components/sections/infografis-page/PersebaranS
 const Inforgrafis = () => {
   return (
     <>
-      <Head></Head>
+      <Head>
+        <title>Infografis Padukuhan Manukan</title>
+        <meta
+          name="description"
+          content="Infografis Padukuhan Manukan yang berisi informasi umum dan persebaran wilayah."
+        />
+        <meta name="author" content="Padukuhan Manukan" />
+        <link rel="icon" href="/manukan-logo.ico" />
+      </Head>
       <main className="text-black">
         <DeskripsiInfografisSection />
         <SectionDivider />
