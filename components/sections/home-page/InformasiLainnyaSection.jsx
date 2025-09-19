@@ -1,12 +1,15 @@
 import React from "react";
 import LainnyaCard from "../../ui/LainnyaCard";
 
-const InformasiLainnyaSection = () => {
-  const informasi = [
-    { nama: "Profil Manukan", path: "/profil", image: null },
-    { nama: "Infografis", path: "/infografis", image: null },
-    { nama: "Lembaga", path: "/lembaga", image: null },
+
+const informasi = [
+    { nama: "Profil Manukan", path: "/profil", image: "/manukan-logo.png" },
+    { nama: "Infografis", path: "/infografis", image: "/images/static/icons/infografis-icon.jpg" },
+    { nama: "Lembaga", path: "/lembaga", image: "/images/static/icons/logo-kwt.png" },
   ];
+
+const InformasiLainnyaSection = () => {
+  
   return (
     <section id="informasi-lainnya" className="py-12 px-4 lg:px-16 bg-white">
       <div className="max-w-[1240px] mx-auto">
