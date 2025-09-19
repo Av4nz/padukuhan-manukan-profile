@@ -2,7 +2,7 @@ import React from "react";
 import KegiatanMiniCard from "../../ui/KegiatanMiniCard";
 import ButtonPrimary from "../../ui/ButtonPrimary";
 
-const KegiatanSection = () => {
+const KegiatanSection = ({latestKegiatan}) => {
   return (
     <section id="kegiatan" className="py-12 px-4 lg:px-16 bg-white">
       <div className="max-w-[1240px] mx-auto">
@@ -17,10 +17,12 @@ const KegiatanSection = () => {
 
         <hr className="text-primary-900/50 my-4" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <KegiatanMiniCard />
-          <KegiatanMiniCard />
-          <KegiatanMiniCard />
-          <KegiatanMiniCard />
+          {latestKegiatan.map((kegiatan, index) => (
+            <KegiatanMiniCard key={index} image={kegiatan.image}>
+              <div className="text-lg font-semibold">{kegiatan.title}</div>
+              <time className="text-sm text-gray-500">{kegiatan.date}</time>
+            </KegiatanMiniCard>
+          ))}
         </div>
         <div className="flex justify-center mt-12 md:hidden">
           <ButtonPrimary label={"Lihat Lainnya"} link={"/kegiatan"} />
