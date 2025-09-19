@@ -7,31 +7,26 @@
     {
         "name": "Balai Padukuhan Manukan",
         "image": "/images/static/fasilitas/balai-padukuhan-manukan.jpg",
-        "url": null
+        "url": "https://maps.app.goo.gl/Rm8sZiN71YwKvctt8"
     },
     {
-        "name": "Puskesmas",
-        "image": null,
-        "url": null
+        "name": "TK Mardi Putera",
+        "image": "/images/static/fasilitas/tk-mardi-putera.jpg",
+        "url": "https://maps.app.goo.gl/M4fdnpHPpnKVPUwJ8"
     },
     {
-        "name": "Sekolah Dasar",
-        "image": null,
-        "url": null
+        "name": "SD Negeri Gambiranom",
+        "image": "/images/static/fasilitas/sd-negeri-gambiranom.jpg",
+        "url": "https://maps.app.goo.gl/mNLAs3533zcKHnmi9"
     },
     {
-        "name": "Sekolah Menengah Pertama",
-        "image": null,
-        "url": null
+        "name": "Angkringan 69 EX-QITA",
+        "image": "/images/static/fasilitas/angkringan69.jpeg",
+        "url": "https://maps.app.goo.gl/SC2UzDeg6WFchYvz7"
     },
     {
-        "name": "Sekolah Menengah Atas",
-        "image": null,
-        "url": null
-    },
-    {
-        "name": "Pasar",
-        "image": null,
-        "url": null
+        "name": "Lapangan Sepak Bola Ganjuran",
+        "image": "/images/static/fasilitas/lapangan-ganjuran.jpg",
+        "url": "https://maps.app.goo.gl/ERbNcGGxT4DgZfdi6"
     }
 ]
