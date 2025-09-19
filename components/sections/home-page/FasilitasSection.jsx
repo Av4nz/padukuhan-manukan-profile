@@ -6,20 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-
-const fasilitasList = [
-  {
-    name: "Masjid Agung",
-    image: null,
-    url: "https://maps.app.goo.gl/qQC6wdyWxUz77cAD7",
-  },
-  { name: "Rumah Sakit", image: null, url: null },
-  { name: "Pusat Perbelanjaan", image: null, url: null },
-  { name: "Sekolah Internasional", image: null, url: null },
-  { name: "Taman Kota", image: null, url: null },
-  { name: "Stasiun Kereta", image: null, url: null },
-  { name: "Bandara Internasional", image: null, url: null },
-];
+import fasilitasList from "@/data/fasilitas.json";
 
 const FasilitasSection = () => {
   return (

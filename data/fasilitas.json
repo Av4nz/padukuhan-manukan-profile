@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Masjid Baitul Muttaqin",
+        "image": "/images/static/fasilitas/masjid-baitul-muttaqin.jpg",
+        "url": "https://maps.app.goo.gl/qQC6wdyWxUz77cAD7"
+    },
+    {
+        "name": "Balai Padukuhan Manukan",
+        "image": "/images/static/fasilitas/balai-padukuhan-manukan.jpg",
+        "url": null
+    },
+    {
+        "name": "Puskesmas",
+        "image": null,
+        "url": null
+    },
+    {
+        "name": "Sekolah Dasar",
+        "image": null,
+        "url": null
+    },
+    {
+        "name": "Sekolah Menengah Pertama",
+        "image": null,
+        "url": null
+    },
+    {
+        "name": "Sekolah Menengah Atas",
+        "image": null,
+        "url": null
+    },
+    {
+        "name": "Pasar",
+        "image": null,
+        "url": null
+    }
+]

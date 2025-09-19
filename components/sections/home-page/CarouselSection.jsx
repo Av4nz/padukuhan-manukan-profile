@@ -5,9 +5,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from "next/image";
-import Hero1 from "@/public/images/static/hero1.jpg";
-import Hero2 from "@/public/images/static/hero2.jpg";
-import Hero3 from "@/public/images/static/hero3.jpg";
+import Hero1 from "@/public/images/static/hero/hero1.jpg";
+import Hero2 from "@/public/images/static/hero/hero2.jpg";
+import Hero3 from "@/public/images/static/hero/hero3.jpg";
 
 const CarouselSection = () => {
   const images = [Hero1, Hero2, Hero3];
