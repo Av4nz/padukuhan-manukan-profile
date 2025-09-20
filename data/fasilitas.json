@@ -1,32 +1,57 @@
 [
-    {
-        "name": "Masjid Baitul Muttaqin",
-        "image": "/images/static/fasilitas/masjid-baitul-muttaqin.jpg",
-        "url": "https://maps.app.goo.gl/qQC6wdyWxUz77cAD7"
-    },
-    {
-        "name": "Balai Padukuhan Manukan",
-        "image": "/images/static/fasilitas/balai-padukuhan-manukan.jpg",
-        "url": "https://maps.app.goo.gl/Rm8sZiN71YwKvctt8"
-    },
-    {
-        "name": "TK Mardi Putera",
-        "image": "/images/static/fasilitas/tk-mardi-putera.jpg",
-        "url": "https://maps.app.goo.gl/M4fdnpHPpnKVPUwJ8"
-    },
-    {
-        "name": "SD Negeri Gambiranom",
-        "image": "/images/static/fasilitas/sd-negeri-gambiranom.jpg",
-        "url": "https://maps.app.goo.gl/mNLAs3533zcKHnmi9"
-    },
-    {
-        "name": "Angkringan 69 EX-QITA",
-        "image": "/images/static/fasilitas/angkringan69.jpeg",
-        "url": "https://maps.app.goo.gl/SC2UzDeg6WFchYvz7"
-    },
-    {
-        "name": "Lapangan Sepak Bola Ganjuran",
-        "image": "/images/static/fasilitas/lapangan-ganjuran.jpg",
-        "url": "https://maps.app.goo.gl/ERbNcGGxT4DgZfdi6"
-    }
+  {
+    "name": "Masjid Baitul Muttaqin",
+    "image": "/images/static/fasilitas/masjid-baitul-muttaqin.jpg",
+    "url": "https://maps.app.goo.gl/qQC6wdyWxUz77cAD7"
+  },
+  {
+    "name": "Masjid Al Hidayah Manukan",
+    "image": null,
+    "url": "https://maps.app.goo.gl/VhPDiedx4Dtgwrpx9"
+  },
+  {
+    "name": "Masjid Al Muflihun",
+    "image": null,
+    "url": "https://maps.app.goo.gl/TQoXaeQjgpHJtvc7A"
+  },
+  {
+    "name": "Masjid Daarussalaam Ganjuran",
+    "image": null,
+    "url": "https://maps.app.goo.gl/oDC9dVE9BCutgjgBA"
+  },
+  {
+    "name": "Balai Padukuhan Manukan",
+    "image": "/images/static/fasilitas/balai-padukuhan-manukan.jpg",
+    "url": "https://maps.app.goo.gl/Rm8sZiN71YwKvctt8"
+  },
+  {
+    "name": "TK Mardi Putera",
+    "image": "/images/static/fasilitas/tk-mardi-putera.jpg",
+    "url": "https://maps.app.goo.gl/M4fdnpHPpnKVPUwJ8"
+  },
+  {
+    "name": "SD Negeri Gambiranom",
+    "image": "/images/static/fasilitas/sd-negeri-gambiranom.jpg",
+    "url": "https://maps.app.goo.gl/mNLAs3533zcKHnmi9"
+  },
+  {
+    "name": "SD Negeri Bhaktikarya",
+    "image": null,
+    "url": "https://maps.app.goo.gl/iwq1FDNRzYUc5XKh7"
+  },
+  {
+    "name": "Angkringan 69 EX-QITA",
+    "image": "/images/static/fasilitas/angkringan69.jpeg",
+    "url": "https://maps.app.goo.gl/SC2UzDeg6WFchYvz7"
+  },
+  {
+    "name": "Lapangan Sepak Bola Ganjuran",
+    "image": "/images/static/fasilitas/lapangan-ganjuran.jpg",
+    "url": "https://maps.app.goo.gl/ERbNcGGxT4DgZfdi6"
+  },
+  {
+    "name": "Balai Tenis Meja",
+    "image": null,
+    "url": "https://maps.app.goo.gl/SYdgPi77g8AocuhMA"
+  }
 ]
