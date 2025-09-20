@@ -45,6 +45,7 @@ const FasilitasCard = ({ image, name, url }) => {
           className={`transition-all duration-300 ${
             isHovered ? "underline" : "text-white"
           } flex items-center`}
+          href={url}
           target="_blank"
           rel="noopener noreferrer"
         >
