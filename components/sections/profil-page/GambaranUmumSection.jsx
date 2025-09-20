@@ -1,7 +1,12 @@
 import React from "react";
 import GambaranUmumCard from "../../ui/GambaranUmumCard";
+import image1 from "@/public/images/static/profil/gambaran-umum1.png"
+import image2 from "@/public/images/static/profil/gambaran-umum2.jpeg"
+import image3 from "@/public/images/static/profil/gambaran-umum3.png"
 
 const GambaranUmumSection = () => {
+  const images = [image1, image2, image3];
+
   return (
     <section
       id="gambaran-umum-wilayah"
@@ -12,9 +17,9 @@ const GambaranUmumSection = () => {
           Gambaran Umum Wilayah
         </h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <GambaranUmumCard />
-          <GambaranUmumCard />
-          <GambaranUmumCard />
+          {images.map((img, index) => (
+            <GambaranUmumCard key={index} image={img} />
+          ))}
         </div>
         <div className="mt-8 text-justify md:grid md:grid-cols-2 gap-4">
           <p>
