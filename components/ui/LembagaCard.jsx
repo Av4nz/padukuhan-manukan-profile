@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-const LembagaCard = ({ image, children }) => {
-  const [title, description] = React.Children.toArray(children);
+const placeholderImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='80' viewBox='0 0 120 80'%3E%3Crect width='120' height='80' fill='%2387ceeb'/%3E%3Cg fill='%23228b22'%3E%3Crect x='20' y='50' width='8' height='30'/%3E%3Crect x='35' y='40' width='8' height='40'/%3E%3Crect x='50' y='45' width='8' height='35'/%3E%3Crect x='65' y='35' width='8' height='45'/%3E%3Crect x='80' y='50' width='8' height='30'/%3E%3Ccircle cx='60' cy='25' r='8' fill='%23ffd700'/%3E%3Cpath d='M10 65 Q30 55 50 65 Q70 75 90 65 Q100 60 110 65 v15 H10 z' fill='%23228b22'/%3E%3C/g%3E%3C/svg%3E";
 
+const LembagaCard = ({ image, title, description }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [imageSrc, setImageSrc] = useState(image);
 
   return (
     <>
@@ -12,17 +13,14 @@ const LembagaCard = ({ image, children }) => {
         className="shadow rounded-2xl w-full h-[30rem] sm:h-[26rem] lg:h-[28rem] relative overflow-hidden flex flex-col cursor-pointer"
         onClick={() => setIsModalOpen(true)}
       >
-        <div className="w-full h-[60%]">
+        <div className="w-full h-[60%] bg-white">
           <Image
-            src={image}
+            src={imageSrc}
             alt={title}
             width={500}
             height={500}
-            className="w-full h-full bg-center bg-cover object-cover object-center"
-            onError={(e) => {
-              e.target.src =
-                "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='80' viewBox='0 0 120 80'%3E%3Crect width='120' height='80' fill='%2387ceeb'/%3E%3Cg fill='%23228b22'%3E%3Crect x='20' y='50' width='8' height='30'/%3E%3Crect x='35' y='40' width='8' height='40'/%3E%3Crect x='50' y='45' width='8' height='35'/%3E%3Crect x='65' y='35' width='8' height='45'/%3E%3Crect x='80' y='50' width='8' height='30'/%3E%3Ccircle cx='60' cy='25' r='8' fill='%23ffd700'/%3E%3Cpath d='M10 65 Q30 55 50 65 Q70 75 90 65 Q100 60 110 65 v15 H10 z' fill='%23228b22'/%3E%3C/g%3E%3C/svg%3E";
-            }}
+            className="w-full h-full bg-center bg-cover object-content object-center"
+            onError={() => setImageSrc(placeholderImage)}
           />
         </div>
         <div className="bg-white w-full h-[40%] p-4 flex flex-col">

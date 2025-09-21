@@ -1,38 +1,38 @@
 [
     {
         "title": "RT 01",
-        "value": 50
+        "value": 230
     },
     {
         "title": "RT 02",
-        "value": 48
+        "value": 152
     },
     {
         "title": "RT 03",
-        "value": 60
+        "value": 122
     },
     {
         "title": "RT 04",
-        "value": 79
+        "value": 273
     },
     {
         "title": "RT 05",
-        "value": 84
+        "value": 192
     },
     {
         "title": "RT 06",
-        "value": 102
+        "value": 175
     },
     {
         "title": "RT 07",
-        "value": 45
+        "value": 93
     },
     {
         "title": "RT 08",
-        "value": 56
+        "value": 371
     },
     {
         "title": "RT 09",
-        "value": 63
+        "value": 226
     }
 ]

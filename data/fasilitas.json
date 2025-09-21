@@ -1,42 +1,42 @@
 [
   {
     "name": "Masjid Baitul Muttaqin",
-    "image": "/images/static/fasilitas/masjid-baitul-muttaqin.jpg",
+    "image": "/images/static/fasilitas/masjid-baitul-muttaqin.webp",
     "url": "https://maps.app.goo.gl/qQC6wdyWxUz77cAD7"
   },
   {
     "name": "Masjid Al Hidayah Manukan",
-    "image": null,
+    "image": "/images/static/fasilitas/masjid-al-hidayah.webp",
     "url": "https://maps.app.goo.gl/VhPDiedx4Dtgwrpx9"
   },
   {
-    "name": "Masjid Al Muflihun",
-    "image": null,
-    "url": "https://maps.app.goo.gl/TQoXaeQjgpHJtvc7A"
-  },
-  {
     "name": "Masjid Daarussalaam Ganjuran",
-    "image": null,
+    "image": "/images/static/fasilitas/masjid-daarussalaam.webp",
     "url": "https://maps.app.goo.gl/oDC9dVE9BCutgjgBA"
   },
   {
     "name": "Balai Padukuhan Manukan",
-    "image": "/images/static/fasilitas/balai-padukuhan-manukan.jpg",
+    "image": "/images/static/fasilitas/balai-padukuhan.webp",
     "url": "https://maps.app.goo.gl/Rm8sZiN71YwKvctt8"
   },
   {
+    "name": "Balai RT",
+    "image": "/images/static/fasilitas/balai-rt.webp",
+    "url": "https://maps.app.goo.gl/Jtu1hooFbrftu7ki9"
+  },
+  {
+    "name": "Kantor Dukuh Manukan",
+    "image": "/images/static/fasilitas/kantor-dukuh.webp",
+    "url": "https://maps.app.goo.gl/CpSevh9BRyfoMNBj8"
+  },
+  {
     "name": "TK Mardi Putera",
-    "image": "/images/static/fasilitas/tk-mardi-putera.jpg",
+    "image": "/images/static/fasilitas/tk-mardi-putera.webp",
     "url": "https://maps.app.goo.gl/M4fdnpHPpnKVPUwJ8"
   },
   {
-    "name": "SD Negeri Gambiranom",
-    "image": "/images/static/fasilitas/sd-negeri-gambiranom.jpg",
-    "url": "https://maps.app.goo.gl/mNLAs3533zcKHnmi9"
-  },
-  {
     "name": "SD Negeri Bhaktikarya",
-    "image": null,
+    "image": "/images/static/fasilitas/sd-bhakti-karya.webp",
     "url": "https://maps.app.goo.gl/iwq1FDNRzYUc5XKh7"
   },
   {
@@ -46,12 +46,27 @@
   },
   {
     "name": "Lapangan Sepak Bola Ganjuran",
-    "image": "/images/static/fasilitas/lapangan-ganjuran.jpg",
+    "image": "/images/static/fasilitas/lapangan-ganjuran.webp",
     "url": "https://maps.app.goo.gl/ERbNcGGxT4DgZfdi6"
   },
   {
     "name": "Balai Tenis Meja",
-    "image": null,
+    "image": "/images/static/fasilitas/balai-tenis-meja.webp",
     "url": "https://maps.app.goo.gl/SYdgPi77g8AocuhMA"
+  },
+  {
+    "name": "Lapangan Voli RT 06",
+    "image": "/images/static/fasilitas/lapangan-voli-rt06.webp",
+    "url": "https://maps.app.goo.gl/xFLXJMyoPcq9ameC7"
+  },
+  {
+    "name": "Lapangan Voli RT 07",
+    "image": "/images/static/fasilitas/lapangan-voli-rt07.webp",
+    "url": "https://maps.app.goo.gl/JJsFamtWEVi8i5Tn6"
+  },
+  {
+    "name": "Lapangan Voli RT 03",
+    "image": "/images/static/fasilitas/lapangan-voli-rt03.webp",
+    "url": "https://maps.app.goo.gl/ebpCoMTtcaPJ2HWFA"
   }
 ]

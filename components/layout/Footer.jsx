@@ -40,7 +40,7 @@ const Footer = ({ currentYear }) => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          alt="Lokasi Padukuhan Manukan"
+          title="Lokasi Padukuhan Manukan"
         ></iframe>
       </div>
       <div className="bg-primary-900 px-4 py-6">
