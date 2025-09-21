@@ -33,7 +33,7 @@ export default function Home({latestKegiatan}) {
   return (
     <>
       <Head>
-        <title>Webiste Padukuhan Manukan</title>
+        <title>Website Padukuhan Manukan</title>
         <meta
           name="description"
           content="Website resmi Padukuhan Manukan yang berisi profil, fasilitas, infografis, lembaga, dan kegiatan yang ada di Padukuhan Manukan."
