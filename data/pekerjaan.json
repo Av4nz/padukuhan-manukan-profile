@@ -1,58 +1,54 @@
 [
     {
-        "title": "Petani",
-        "value": 150
+        "title": "Pelajar/Mahasiswa",
+        "value": 376
     },
     {
-        "title": "Pedagang",
-        "value": 100
+        "title": "Karyawan Swasta",
+        "value": 265
     },
     {
-        "title": "PNS",
-        "value": 50
+        "title": "Mengurus Rumah Tangga",
+        "value": 247
     },
     {
         "title": "Wiraswasta",
-        "value": 200
+        "value": 130
     },
     {
-        "title": "Buruh",
-        "value": 80
+        "title": "Buruh Harian Lepas",
+        "value": 67
+    },
+    {
+        "title": "Pensiunan",
+        "value": 64
+    },
+    {
+        "title": "Pegawai Negeri Sipil (PNS)",
+        "value": 51
     },
     {
         "title": "Guru",
-        "value": 40
-    },
-    {
-        "title": "Dokter",
-        "value": 10
-    },
-    {
-        "title": "Perawat",
         "value": 25
     },
     {
-        "title": "Mahasiswa",
-        "value": 60
+        "title": "Dokter",
+        "value": 20
     },
     {
-        "title": "Pelajar",
-        "value": 120
-    },
-    {
-        "title": "Pengusaha",
-        "value": 35
-    },
-    {
-        "title": "Nelayan",
+        "title": "Karyawan BUMN",
         "value": 15
     },
     {
-        "title": "Sopir",
-        "value": 22
+        "title": "Dosen",
+        "value": 13
     },
     {
-        "title": "Tukang",
-        "value": 30
+        "title": "Swasta",
+        "value": 10
+    },
+    {
+        "title": "Kepolisian RI",
+        "value": 5
     }
 ]

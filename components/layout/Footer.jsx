@@ -34,7 +34,7 @@ const Footer = ({ currentYear }) => {
     <footer id="kontak" className="w-full text-white mt-auto">
       <div className="w-full h-[300px] md:h-[350px]">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.3984241747967!2d110.39727877595405!3d-7.747495576813814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59ed439103cf%3A0xae0b0a5a5562014e!2sKWT%20(Kelompok%20Wanita%20Tani)%20Kuntani%20Manukan%20Condongcatur!5e0!3m2!1sen!2sid!4v1756738038210!5m2!1sen!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8427.36343354315!2d110.39384931363473!3d-7.7454977513808485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5912863d5727%3A0xffe29daf6bd9d953!2sManukan%2C%20Condongcatur%2C%20Kec.%20Depok%2C%20Kabupaten%20Sleman%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sid!2sid!4v1758545373924!5m2!1sid!2sid"
           className="w-full h-full"
           style={{ border: 0 }}
           allowFullScreen=""

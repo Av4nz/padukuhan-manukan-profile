@@ -19,7 +19,7 @@ const LembagaCard = ({ image, title, description }) => {
             alt={title}
             width={500}
             height={500}
-            className="w-full h-full bg-center bg-cover object-content object-center"
+            className="w-full h-full bg-center bg-cover object-cover object-center"
             onError={() => setImageSrc(placeholderImage)}
           />
         </div>
@@ -38,7 +38,7 @@ const LembagaCard = ({ image, title, description }) => {
 
       {isModalOpen && (
         <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-lg max-w-3xl w-full max-h-[90vh] overflow-y-auto">
+          <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto">
             <div className="sticky top-0 bg-primary-700 p-4 border-b flex justify-between items-center z-5">
               <h3 className="text-2xl font-semibold text-white">
                 {title || "Judul Kegiatan"}
@@ -77,7 +77,7 @@ const LembagaCard = ({ image, title, description }) => {
                   }}
                 />
               </div>
-              <div className="prose max-w-none">
+              <div className="prose max-w-none text-justify">
                 <p>{description || "Deskripsi singkat kegiatan..."}</p>
               </div>
             </div>

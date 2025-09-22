@@ -20,8 +20,8 @@ const KegiatanCard = ({ image, children }) => {
           <Image
             src={imageSrc}
             alt={title}
-            width={500}
-            height={500}
+            width={1200}
+            height={700}
             className="w-full h-full bg-center bg-cover object-cover object-center"
             onError={() => setImageSrc(placeholderImage)}
           />
@@ -75,8 +75,8 @@ const KegiatanCard = ({ image, children }) => {
                 <Image
                   src={imageSrc}
                   alt={title}
-                  width={500}
-                  height={500}
+                  width={1600}
+                  height={900}
                   className="w-full h-full bg-center bg-cover object-cover object-center"
                   onError={() => setImageSrc(placeholderImage)}
                 />
@@ -84,7 +84,7 @@ const KegiatanCard = ({ image, children }) => {
               <div className="text-gray-600 mb-4">
                 {date || "DD Month YYYY"}
               </div>
-              <div className="prose max-w-none">
+              <div className="prose max-w-none text-justify">
                 <p>{description || "Deskripsi singkat kegiatan..."}</p>
               </div>
             </div>

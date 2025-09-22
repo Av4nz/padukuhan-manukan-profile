@@ -1,7 +1,7 @@
 ---
 title: "Kegiatan Panen Kacang Panjang"
 date: 2025-08-15
-image: "/images/static/kegiatan/kegiatan2.webp"
+image: null
 ---
 
 

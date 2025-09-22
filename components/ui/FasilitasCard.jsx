@@ -28,7 +28,7 @@ const FasilitasCard = ({ image, name, url }) => {
         <Image
           src={imageSrc}
           alt={name || "Nama Fasilitas"}
-          width={900}
+          width={1368}
           height={800}
           className="w-full h-auto object-contain"
           onError={() => setImageSrc(placeholderImage)}
@@ -52,8 +52,8 @@ const FasilitasCard = ({ image, name, url }) => {
           <Image
             src={imageSrc}
             alt={name || "Nama Fasilitas"}
-            width={500}
-            height={400}
+            width={2000}
+            height={1000}
             className="w-full h-full bg-center bg-cover object-cover object-center"
             onError={() => setImageSrc(placeholderImage)}
           />

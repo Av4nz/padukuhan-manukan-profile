@@ -1,7 +1,7 @@
 ---
 title: "Piket Bersih-bersih Kolam Lele"
 date: 2025-08-15
-image: "/images/static/kegiatan/kegiatan1.webp"
+image: null
 ---
 
 

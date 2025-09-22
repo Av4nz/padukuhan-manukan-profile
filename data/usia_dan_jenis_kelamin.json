@@ -1,67 +1,97 @@
 [
     {
-        "range": "0-4",
-        "laki_laki": 50,
-        "perempuan": 48
-    },
-    {
-        "range": "5-9",
-        "laki_laki": 45,
-        "perempuan": 47
-    },
-    {
-        "range": "10-14",
-        "laki_laki": 52,
-        "perempuan": 50
-    },
-    {
-        "range": "15-19",
-        "laki_laki": 49,
-        "perempuan": 51
-    },
-    {
-        "range": "20-24",
-        "laki_laki": 40,
-        "perempuan": 42
-    },
-    {
-        "range": "25-29",
-        "laki_laki": 38,
-        "perempuan": 39
-    },
-    {
-        "range": "30-34",
-        "laki_laki": 35,
-        "perempuan": 36
-    },
-    {
-        "range": "35-39",
-        "laki_laki": 30,
-        "perempuan": 32
-    },
-    {
-        "range": "40-44",
-        "laki_laki": 28,
-        "perempuan": 30
-    },
-    {
-        "range": "45-49",
-        "laki_laki": 25,
-        "perempuan": 27
-    },
-    {
-        "range": "50-54",
-        "laki_laki": 20,
+        "range": "1-5",
+        "laki_laki": 24,
         "perempuan": 22
     },
     {
-        "range": "55-59",
-        "laki_laki": 18,
-        "perempuan": 19
+        "range": "6-10",
+        "laki_laki": 53,
+        "perempuan": 38
     },
     {
-        "range": "60-64",
-        "laki_laki": 15,
-        "perempuan": 16
+        "range": "11-15",
+        "laki_laki": 68,
+        "perempuan": 65
+    },
+    {
+        "range": "16-20",
+        "laki_laki": 98,
+        "perempuan": 51
+    },
+    {
+        "range": "21-25",
+        "laki_laki": 54,
+        "perempuan": 64
+    },
+    {
+        "range": "26-30",
+        "laki_laki": 73,
+        "perempuan": 53
+    },
+    {
+        "range": "31-35",
+        "laki_laki": 66,
+        "perempuan": 72
+    },
+    {
+        "range": "36-40",
+        "laki_laki": 56,
+        "perempuan": 62
+    },
+    {
+        "range": "41-45",
+        "laki_laki": 74,
+        "perempuan": 72
+    },
+    {
+        "range": "46-50",
+        "laki_laki": 56,
+        "perempuan": 60
+    },
+    {
+        "range": "51-55",
+        "laki_laki": 46,
+        "perempuan": 64
+    },
+    {
+        "range": "56-60",
+        "laki_laki": 61,
+        "perempuan": 62
+    },
+    {
+        "range": "61-65",
+        "laki_laki": 40,
+        "perempuan": 73
+    },
+    {
+        "range": "66-70",
+        "laki_laki": 46,
+        "perempuan": 36
+    },
+    {
+        "range": "71-75",
+        "laki_laki": 29,
+        "perempuan": 27
+    },
+    {
+        "range": "76-80",
+        "laki_laki": 17,
+        "perempuan": 9
+    },
+    {
+        "range": "81-85",
+        "laki_laki": 7,
+        "perempuan": 5
+    },
+    {
+        "range": "86-90",
+        "laki_laki": 1,
+        "perempuan": 3
+    },
+    {
+        "range": "91-95",
+        "laki_laki": 1,
+        "perempuan": 3
     }
 ]
