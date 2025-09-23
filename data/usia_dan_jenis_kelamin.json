@@ -1,88 +1,88 @@
 [
     {
         "range": "1-5",
-        "laki_laki": 24,
+        "laki_laki": 29,
         "perempuan": 22
     },
     {
         "range": "6-10",
-        "laki_laki": 53,
-        "perempuan": 38
+        "laki_laki": 54,
+        "perempuan": 45
     },
     {
         "range": "11-15",
-        "laki_laki": 68,
-        "perempuan": 65
+        "laki_laki": 71,
+        "perempuan": 69
     },
     {
         "range": "16-20",
-        "laki_laki": 98,
+        "laki_laki": 99,
         "perempuan": 51
     },
     {
         "range": "21-25",
         "laki_laki": 54,
-        "perempuan": 64
+        "perempuan": 65
     },
     {
         "range": "26-30",
         "laki_laki": 73,
-        "perempuan": 53
+        "perempuan": 56
     },
     {
         "range": "31-35",
-        "laki_laki": 66,
+        "laki_laki": 68,
         "perempuan": 72
     },
     {
         "range": "36-40",
-        "laki_laki": 56,
-        "perempuan": 62
+        "laki_laki": 60,
+        "perempuan": 67
     },
     {
         "range": "41-45",
-        "laki_laki": 74,
-        "perempuan": 72
+        "laki_laki": 81,
+        "perempuan": 73
     },
     {
         "range": "46-50",
-        "laki_laki": 56,
-        "perempuan": 60
+        "laki_laki": 68,
+        "perempuan": 63
     },
     {
         "range": "51-55",
-        "laki_laki": 46,
+        "laki_laki": 51,
         "perempuan": 64
     },
     {
         "range": "56-60",
-        "laki_laki": 61,
-        "perempuan": 62
+        "laki_laki": 68,
+        "perempuan": 61
     },
     {
         "range": "61-65",
-        "laki_laki": 40,
-        "perempuan": 73
+        "laki_laki": 47,
+        "perempuan": 75
     },
     {
         "range": "66-70",
-        "laki_laki": 46,
-        "perempuan": 36
+        "laki_laki": 55,
+        "perempuan": 42
     },
     {
         "range": "71-75",
-        "laki_laki": 29,
+        "laki_laki": 32,
         "perempuan": 27
     },
     {
         "range": "76-80",
-        "laki_laki": 17,
-        "perempuan": 9
+        "laki_laki": 19,
+        "perempuan": 10
     },
     {
         "range": "81-85",
         "laki_laki": 7,
-        "perempuan": 5
+        "perempuan": 6
     },
     {
         "range": "86-90",
@@ -92,6 +92,6 @@
     {
         "range": "91-95",
         "laki_laki": 1,
-        "perempuan": 3
+        "perempuan": 4
     }
 ]

@@ -1,35 +1,35 @@
 [
     {
         "title": "Pelajar/Mahasiswa",
-        "value": 376
+        "value": 340
     },
     {
         "title": "Karyawan Swasta",
-        "value": 265
-    },
-    {
-        "title": "Mengurus Rumah Tangga",
         "value": 247
     },
     {
+        "title": "Mengurus Rumah Tangga",
+        "value": 227
+    },
+    {
         "title": "Wiraswasta",
-        "value": 130
+        "value": 122
     },
     {
         "title": "Buruh Harian Lepas",
-        "value": 67
+        "value": 60
     },
     {
         "title": "Pensiunan",
-        "value": 64
+        "value": 68
     },
     {
         "title": "Pegawai Negeri Sipil (PNS)",
-        "value": 51
+        "value": 52
     },
     {
         "title": "Guru",
-        "value": 25
+        "value": 24
     },
     {
         "title": "Dokter",
@@ -37,7 +37,7 @@
     },
     {
         "title": "Karyawan BUMN",
-        "value": 15
+        "value": 13
     },
     {
         "title": "Dosen",
