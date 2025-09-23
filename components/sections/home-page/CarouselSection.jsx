@@ -36,15 +36,17 @@ const CarouselSection = () => {
       >
         {images.map((image, index) => (
           <SwiperSlide key={index} className="relative w-full h-full">
-            <Image
-              className="flex w-full h-full bg-center bg-cover object-cover object-center -z-10 carousel-zoom"
-              src={image || null}
-              alt={`Slide ${index + 1}`}
-              fill
-              priority={index === 0}
-              sizes="100vw"
-            />
-            <div className="absolute w-full h-full bg-black/60 -z-10" />
+            <div className="relative w-full h-full overflow-hidden">
+              <Image
+                className="flex w-full h-full bg-center bg-cover object-cover object-center carousel-zoom"
+                src={image || null}
+                alt={`Slide ${index + 1}`}
+                fill
+                priority={index === 0}
+                sizes="100vw"
+              />
+              <div className="absolute w-full h-full bg-black/60" />
+            </div>
           </SwiperSlide>
         ))}
         <div className="swiper-button-prev hidden md:block text-white z-10" />
