@@ -21,25 +21,21 @@ const GambaranUmumSection = () => {
             <GambaranUmumCard key={index} image={img} />
           ))}
         </div>
-        <div className="mt-8 text-justify md:grid md:grid-cols-2 gap-4">
+        <div className="mt-8 md:grid md:grid-cols-2 gap-4">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
-            quos fuga nostrum rerum aliquid! Natus sequi veniam atque officia,
-            est minima impedit vitae hic, quos deserunt numquam dignissimos
-            magni similique laborum alias maxime. Architecto, voluptatum rem. Ab
-            temporibus optio quam aspernatur et in magni laborum, sint dolor
-            earum, aut repudiandae nihil blanditiis architecto iure repellendus,
-            distinctio nesciunt quos obcaecati adipisci? Ratione cupiditate
-            ipsam, corrupti quidem minus soluta asperiores quam eos.
+            <b>Luas wilayah:</b> ±49,6 Ha<br />
+            <b>Sebelah Utara:</b> Padukuhan Tiyasan Condongcatur<br />
+            <b>Sebelah Timur:</b> Padukuhan Pondok Condongcatur<br />
+            <b>Sebelah Selatan:</b> Padukuhan Sangrahan Condongcatur <br />
+            <b>Sebelah Barat:</b> Wilayah Kalurahan Sinduharjo
           </p>
+          <br className="md:hidden"/>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi
-            possimus, quia corporis illo recusandae natus impedit vel ratione,
-            incidunt omnis fugit neque unde! Impedit rem minima error libero,
-            odio tempore reprehenderit, alias in soluta exercitationem enim esse
-            expedita pariatur dignissimos. Dicta, iusto! Quaerat fuga itaque
-            mollitia ut corrupti vero deleniti commodi eius vel est. Veniam
-            magnam illo distinctio consequatur!
+            Secara administratif terdiri dari 4 RW yaitu: <br />
+            <b>RW 03:</b> RT 01 dan RT 02 <br />
+            <b>RW 04:</b> RT 04, RT 05, dan RT 06 <br />
+            <b>RW 05:</b> RT 07 dan RT 08 <br />
+            <b>RW 64:</b> RT 09 dan RT 03
           </p>
         </div>
       </div>

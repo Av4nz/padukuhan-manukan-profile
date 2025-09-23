@@ -40,6 +40,18 @@ body {
   font-family: Arial, Helvetica, sans-serif, var(--font-poppins);
 }
 
+@keyframes zoomOut {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.carousel-zoom {
+  animation: zoomOut 5500ms linear forwards;
+}
 
 
 .carousel-swiper .swiper-pagination-bullet {

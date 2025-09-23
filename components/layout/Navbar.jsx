@@ -26,7 +26,7 @@ const Navbar = () => {
     return (
       <Link
         href={item.path}
-        className="hover:text-sky-200 font-medium"
+        className="hover:underline font-medium"
         onClick={() => handleClick(item.path)}
       >
         {item.title}

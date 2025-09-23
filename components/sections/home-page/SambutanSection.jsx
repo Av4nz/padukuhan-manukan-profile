@@ -9,7 +9,7 @@ const SambutanSection = () => {
         </h2>
         <hr className="text-primary-900/50 my-4" />
         <h3 className="text-lg md:text-xl font-semibold">
-          Beti Kartiningrum S.T., M.T
+          Beti Kartiningrum S.T., M.T., MIP
         </h3>
         <div className="text-justify mt-4 text-base leading-relaxed">
           <p className="indent-12">
@@ -22,7 +22,6 @@ const SambutanSection = () => {
             maiores soluta non nobis ullam sapiente modi consequuntur illum
             corporis ut? Aperiam totam sunt quidem magnam quos.
           </p>
-          <br />
           <p className="indent-12">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo modi
             impedit ea perspiciatis? Culpa mollitia perspiciatis repellat
@@ -32,8 +31,6 @@ const SambutanSection = () => {
             necessitatibus! Nam quam repellat consectetur fugit repudiandae
             eaque quis dolorem repellendus neque ab, cum enim amet?
           </p>
-
-          <br />
           <p className="indent-12">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             vitae dolore maiores dolorem aut facilis voluptatum, exercitationem

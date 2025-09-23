@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-const image = [];
+import Hero1 from "@/public/images/static/hero/hero1.webp";
 
 const DeskripsiProfilSection = () => {
   return (
@@ -10,10 +9,10 @@ const DeskripsiProfilSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex items-center justify-center rounded-2xl overflow-hidden max-h-[350px]">
             <Image
-              src={image}
+              src={Hero1}
               alt="Panorama Padukuhan Manukan"
-              width={500}
-              height={500}
+              width={1200}
+              height={600}
               className="w-full h-full bg-center bg-cover object-cover object-center"
               onError={(e) => {
                 e.target.src =
@@ -26,7 +25,7 @@ const DeskripsiProfilSection = () => {
               Deskripsi
             </h2>
             <p className="mt-4 text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quis tempore eos, adipisci exercitationem soluta dolorum. Sapiente repellat sint sit aspernatur cum at iste? Impedit accusamus vitae nisi dolorem tenetur! Eius inventore totam sequi veniam nesciunt explicabo corrupti in aliquam autem, reprehenderit fugiat voluptatibus cupiditate aperiam ex est odit itaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo enim, saepe dicta ea vero excepturi fugiat hic quis quos officiis.
+                Padukuhan Manukan adalah salah satu wilayah di Kalurahan Condongcatur, Sleman, Yogyakarta, yang dikenal dengan kehidupan masyarakat yang aktif dan terorganisir serta fasilitas dasar yang lengkap untuk menunjang keseharian warganya.
             </p>
           </div>
         </div>
