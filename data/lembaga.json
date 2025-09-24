@@ -1,11 +1,11 @@
 [
     {
-        "image": "/images/static/icons/logo-kwt.png",
+        "image": "/images/static/lembaga/kwt-kuntani.png",
         "judul": "KWT Kuntani",
         "deskripsi": "Kelompok yang beranggotakan ibu-ibu atau perempuan di desa yang memiliki kegiatan bersama di bidang pertanian, peternakan, perikanan, atau pengolahan hasil pertanian."
     },
     {
-        "image": null,
+        "image": "/images/static/lembaga/pkk.png",
         "judul": "PKK",
         "deskripsi": "PKK atau (Pemberdayaan Kesejahteraan Keluarga) adalah gerakan nasional di Indonesia yang berfokus pada pembangunan masyarakat, dimulai dari unit terkecil: keluarga."
     },
@@ -15,32 +15,32 @@
         "deskripsi": "Fungsi utama dari Sub Unit LPMK (Lembaga Pemberdayaan Masyarakat Kelurahan) adalah untuk membantu dan mendukung tugas-tugas LPMK dalam memberdayakan masyarakat di wilayah yang lebih kecil dan spesifik, yaitu di tingkat RW atau RT"
     },
     {
-        "image": null,
+        "image": "/images/static/lembaga/jaga-warga.png",
         "judul": "Jaga Warga",
         "deskripsi": "Jaga Warga adalah sebuah sistem keamanan swakarsa atau kegiatan ronda yang dilakukan oleh masyarakat secara bergiliran. Tujuannya adalah untuk menjaga ketertiban, keamanan, dan ketentraman lingkungan di wilayah tertentu, seperti di tingkat rukun warga (RW) atau rukun tetangga (RT)."
     },
     {
-        "image": null,
+        "image": "/images/static/lembaga/karang-taruna.png",
         "judul": "Karang Taruna (Bhakti Manunggal dan M2G)",
         "deskripsi": "Organisasi kepemudaan yang dibentuk sebagai wadah dan sarana pengembangan diri bagi generasi muda di tingkat desa  Organisasi ini berfokus pada kegiatan sosial, ekonomi, dan kebudayaan yang bertujuan untuk membangun potensi para pemuda agar lebih mandiri, produktif, dan bermanfaat bagi masyarakat."
     },
     {
-        "image": null,
-        "judul": "Kelompok Tani",
-        "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "image": "/images/static/lembaga/gapoktan.jpg",
+        "judul": "GAPOKTAN",
+        "deskripsi": "Gabungan Kelompok Tani adalah kumpulan beberapa kelompok tani yang tergabung dan bekerja sama untuk meningkatkan skala ekonomi serta efisiensi usaha pertanian, dengan fungsi utama memfasilitasi penyediaan sarana produksi, penyaluran modal, pengolahan dan pemasaran produk yang  ada di Padukuhan Manukan"
     },
     {
-        "image": null,
+        "image": "/images/static/lembaga/bank-sampah.JPG",
         "judul": "Bank Sampah",
         "deskripsi": "Sebuah program yang bertujuan untuk mengelola sampah anorganik (seperti plastik, kertas, dan botol) dengan sistem layaknya bank konvensional dimana kegiatan ini juga bermanfaat bagi ekonomi warga Padukuhan Manukan"
     },
     {
-        "image": null,
+        "image": "/images/static/lembaga/posyandu-balita.webp",
         "judul": "Posyandu Balita",
         "deskripsi": "Bentuk pelayanan kesehatan dasar yang diselenggarakan dari, oleh, dan untuk masyarakat, dengan dukungan dari petugas kesehatan. Posyandu Balita bertujuan untuk memantau tumbuh kembang anak sejak usia 0 hingga 5 tahun."
     },
     {
-        "image": null,
+        "image": "/images/static/lembaga/posyandu-lansia.webp",
         "judul": "Posyandu Lansia",
         "deskripsi": "Pos pelayanan terpadu yang dikhususkan untuk para lanjut usia (lansia). Layaknya Posyandu Balita, Posyandu Lansia juga merupakan bentuk partisipasi masyarakat dalam memberikan layanan kesehatan dasar bagi para orang tua, yang dilaksanakan secara rutin di tingkat rukun warga (RW) atau desa."
     }

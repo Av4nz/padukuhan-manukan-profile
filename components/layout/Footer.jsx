@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -70,12 +70,17 @@ const Footer = ({ currentYear }) => {
             <h3 className="md:text-3xl text-2xl font-semibold mb-2">Kontak</h3>
             <div className="flex flex-row gap-2">
               <div className="bg-white p-2 rounded">
-                <a href="https://www.facebook.com/share/g/1FSQ92D9RX/">
+                <a href="https://www.facebook.com/share/g/19iWNhwPED/">
                   <FaFacebookF className="text-black" size={25} />
                 </a>
               </div>
               <div className="bg-white p-2 rounded">
-                <a href="http://wa.me/6285643965751">
+                <a href="https://www.instagram.com/padukuhan_manukan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                  <FaInstagram className="text-black" size={25} />
+                </a>
+              </div>
+              <div className="bg-white p-2 rounded">
+                <a href="http://wa.me/6282227468690">
                   <FaWhatsapp className="text-black" size={25} />
                 </a>
               </div>
