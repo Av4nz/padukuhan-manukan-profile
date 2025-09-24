@@ -7,8 +7,8 @@ const GambaranUmumCard = ({image}) => {
       <Image
         src={image}
         alt="Gambaran Umum Wilayah"
-        width={500}
-        height={500}
+        width={1000}
+        height={1000}
         className="w-full h-full bg-center bg-cover object-contain object-center"
         onError={(e) => {
           e.target.src =
