@@ -26,23 +26,30 @@ const PersebaranSection = () => {
         </h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="mx-auto my-auto w-full h-[350px] md:h-[400px]">
-            <DoughnutChart labels={[...wilayahLabels]} data={[...wilayahValues]} />
+            <DoughnutChart
+              labels={[...wilayahLabels]}
+              data={[...wilayahValues]}
+            />
           </div>
           <div>
             <h3 className="text-xl md:text-2xl font-semibold text-center md:text-left">
               Berdasarkan Wilayah
             </h3>
-            <p className="mt-4 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              fugiat iure repellendus soluta illum vero incidunt, recusandae
-              laudantium saepe cumque velit id corrupti consequatur at fugit
-              ipsa eius voluptatem molestias exercitationem? Culpa asperiores ad
-              consequuntur reiciendis accusamus nam quas, cupiditate distinctio
-              dolore at omnis! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Deserunt reiciendis eligendi, neque illum quam
-              rerum similique. Assumenda modi maiores facilis. Facilis quisquam
-              quaerat voluptatem
-            </p>
+            <div className="mt-4 grid grid-cols-2 gap-x-8 gap-y-2">
+              <div>
+                RT01 : 230 jiwa<br />
+                RT02 : 152 jiwa<br />
+                RT03 : 122 jiwa<br />
+                RT04 : 273 jiwa<br />
+                RT05 : 230 jiwa
+              </div>
+              <div>
+                RT06 : 175 jiwa<br />
+                RT07 : 250 jiwa<br />
+                RT08 : 371 jiwa<br />
+                RT09 : 226 jiwa
+              </div>
+            </div>
           </div>
         </div>
         <div className="mt-12 flex flex-col gap-4">
@@ -50,7 +57,11 @@ const PersebaranSection = () => {
             Berdasarkan Usia dan Jenis Kelamin
           </h3>
           <div className="mx-auto my-auto w-full h-[350px] md:h-[400px]">
-            <PopulationPyramidChart labels={[...usiaLabels]} maleData={[...maleData]} femaleData={[...femaleData]} />
+            <PopulationPyramidChart
+              labels={[...usiaLabels]}
+              maleData={[...maleData]}
+              femaleData={[...femaleData]}
+            />
           </div>
         </div>
         <div className="mt-12 flex flex-col gap-4">
@@ -58,7 +69,10 @@ const PersebaranSection = () => {
             Berdasarkan Pekerjaan
           </h3>
           <div className="mx-auto my-auto w-full h-[350px] md:h-[400px]">
-            <BarChart labels={[...pekerjaanLabels]} pekerjaanData={[...pekerjaanValues]} />
+            <BarChart
+              labels={[...pekerjaanLabels]}
+              pekerjaanData={[...pekerjaanValues]}
+            />
           </div>
         </div>
       </div>
