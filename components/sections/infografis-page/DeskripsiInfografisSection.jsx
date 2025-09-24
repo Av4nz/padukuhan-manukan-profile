@@ -11,13 +11,11 @@ const DeskripsiInfografisSection = () => {
               Infografis Kependudukan
             </h2>
             <p className="mt-4 text-justify">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non
-              illo, esse adipisci nobis praesentium cum consequatur quisquam,
-              unde, quo minus omnis quos expedita obcaecati alias velit dolorem.
-              Aliquam harum, provident officiis praesentium quod doloribus
-              voluptates consequatur velit fuga, cum perspiciatis numquam dicta
-              sunt, labore beatae nemo fugiat. Maxime, quas ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error fuga quam aliquam quibusdam voluptatum aliquid omnis, quas nostrum nesciunt quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dignissimos commodi. Minus, ipsum necessitatibus! Perferendis eum cum voluptatem dolorem delectus.
+              Infografis ini memberikan gambaran visual mengenai data kependudukan di wilayah Padukuhan Manukan. 
+              Informasi mencakup jumlah penduduk, distribusi usia, rasio gender, dan mata pencaharian masyarakat.
+              Data dalam infografis ini diambil pada bulan Februari 2025 dan diolah untuk memberikan pemahaman yang lebih baik mengenai struktur demografis di Padukuhan Manukan.
             </p>
+
           </div>
           <div className="flex items-center justify-center rounded-2xl overflow-hidden max-h-[350px]">
             <Image
