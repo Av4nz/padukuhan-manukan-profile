@@ -12,30 +12,33 @@ const SambutanSection = () => {
           Beti Kartiningrum S.T., M.T., MIP
         </h3>
         <div className="text-justify mt-4 text-base leading-relaxed">
+          <p>
+            Assalamu'alaikum warahmatullahi wabarakatuh.
+          </p>
+          <br />
           <p className="indent-12">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
-            nihil, iure optio temporibus quis consectetur. Accusantium accusamus
-            ea animi nostrum. Enim inventore voluptas hic dolor fugit amet,
-            ratione aliquid, ipsa deleniti perspiciatis, magni ut assumenda a
-            sit. Ex, reiciendis quisquam facilis est eveniet, accusamus labore
-            excepturi repellat possimus expedita dolor delectus odit, velit
-            maiores soluta non nobis ullam sapiente modi consequuntur illum
-            corporis ut? Aperiam totam sunt quidem magnam quos.
+            Puji syukur kehadirat Allah SWT atas rahmat dan hidayah-Nya. Dengan
+            niat tulus untuk mendokumentasikan kehidupan dan aktivitas Padukuhan
+            Manukan, kami persembahkan website profil padukuhan ini sebagai sebuah
+            arsip sejarah dan cerminan identitas kita.
           </p>
           <p className="indent-12">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo modi
-            impedit ea perspiciatis? Culpa mollitia perspiciatis repellat
-            tenetur sed illum ducimus quidem amet earum nihil nulla, dolorum
-            perferendis voluptatibus incidunt necessitatibus ipsum sunt iure,
-            ullam vero odio? Earum assumenda adipisci, fugiat velit quos odit
-            necessitatibus! Nam quam repellat consectetur fugit repudiandae
-            eaque quis dolorem repellendus neque ab, cum enim amet?
+            Buku ini disusun sebagai panduan dan cerminan dari dinamika yang ada
+            di padukuhan kita. Anda akan menemukan informasi mengenai profil
+            padukuhan, kelembagaan yang menjadi tulang punggung pelayanan, serta
+            ragam kegiatan kemasyarakatan yang secara rutin menggerakkan roda
+            kehidupan kita bersama.
           </p>
           <p className="indent-12">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            vitae dolore maiores dolorem aut facilis voluptatum, exercitationem
-            reprehenderit? Repellat sint ex accusamus dolore vel minima,
-            necessitatibus rerum ullam. Suscipit, illum!
+            Kami berharap melalui platform ini dapat menjadi sumber informasi yang akurat
+            dan transparan bagi seluruh warga serta pihak-pihak yang ingin
+            mengenal Padukuhan Manukan lebih dekat. Semoga kita dapat
+            bersama-sama membangun Manukan menjadi padukuhan yang lebih maju,
+            mandiri, dan berdaya saing.
+          </p>
+          <br />
+          <p>
+            Wassalamu'alaikum warahmatullahi wabarakatuh.
           </p>
         </div>
       </div>
