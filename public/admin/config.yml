@@ -26,4 +26,20 @@ collections:
         }
       - { label: "Gambar", name: "image", widget: "image", required: true }
       - { label: "Isi", name: "body", widget: "markdown", required: true }
+  - name: "fasilitas"
+    label: "Fasilitas"
+    files:
+      - file: "data/fasilitas.json"
+        label: "Daftar Fasilitas"
+        name: "fasilitas"
+        format: "json"
+        fields:
+          - label: "Fasilitas"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { name: "name", label: "Nama", widget: "string", required: true }
+              - { name: "image", label: "Gambar", widget: "image", required: true }
+              - { name: "url", label: "Link Maps", widget: "string", required: true }
       
