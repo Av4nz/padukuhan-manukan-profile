@@ -50,8 +50,8 @@ const Footer = ({ currentYear }) => {
               Padukuhan Manukan
             </h3>
             <p>
-              Kelurahan Condongcatur, Kecamatan Depok, Kabupaten Sleman,
-              Provinsi Daerah Istimewa Yogyakarta
+              Kalurahan Condongcatur, Kapanewon Depok, Kabupaten Sleman,
+              Daerah Istimewa Yogyakarta
             </p>
           </div>
           <div className="flex flex-col md:w-[25%]">
