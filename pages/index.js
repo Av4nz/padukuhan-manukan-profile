@@ -36,7 +36,7 @@ export default function Home({latestKegiatan}) {
         <title>Website Padukuhan Manukan</title>
         <meta
           name="description"
-          content="Website resmi Padukuhan Manukan yang berisi profil, fasilitas, infografis, lembaga, dan kegiatan yang ada di Padukuhan Manukan."
+          content="Website resmi Padukuhan Manukan yang berisi profil, fasilitas, infografis, lembaga, dan kegiatan yang ada di Padukuhan Manukan. Padukuhan Manukan terletak di Kalurahan Condongcatur, Kapanewon Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta."
         />
         <meta name="author" content="Padukuhan Manukan" />
         <link rel="icon" href="/manukan-logo.ico" />
@@ -44,7 +44,7 @@ export default function Home({latestKegiatan}) {
         <meta property="og:title" content="Padukuhan Manukan" />
         <meta
           property="og:description"
-          content="Website resmi Padukuhan Manukan yang berisi profil, fasilitas, infografis, lembaga, dan kegiatan yang ada di Padukuhan Manukan."
+          content="Website resmi Padukuhan Manukan yang berisi profil, fasilitas, infografis, lembaga, dan kegiatan yang ada di Padukuhan Manukan. Padukuhan Manukan terletak di Kalurahan Condongcatur, Kapanewon Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta."
         />
         <meta property="og:image" content="/manukan-logo.png" />
         <meta property="og:type" content="website" />

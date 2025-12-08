@@ -47,3 +47,5 @@ videos/*
 !videos/*.ts
 public/_next-video
 package-lock.json
+
+.idea
